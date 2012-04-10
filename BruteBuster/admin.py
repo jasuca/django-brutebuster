@@ -5,9 +5,10 @@
 from django.contrib import admin
 from BruteBuster.models import FailedAttempt
 
+
 class AdminFailedAttempt (admin.ModelAdmin):
-    list_display = ('username', 'IP' ,'failures', 'timestamp','blocked')
-    search_fields = ('username','IP',)
+    list_display = ('username', 'IP', 'failures', 'timestamp', 'blocked')
+    search_fields = ('username', 'IP', )
 
 
 admin.site.register(FailedAttempt, AdminFailedAttempt)

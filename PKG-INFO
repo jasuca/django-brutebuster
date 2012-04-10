@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-brutebuster
+Version: 0.1.8
+Summary: Pluggable Django application providing password bruteforce protection
+Home-page: http://code.google.com/p/django-brutebuster/
+Author: Cyber Security Consulting Ltd.
+Author-email: contact@csc.bg
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
